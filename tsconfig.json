@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "outDir": "./build",
+    "rootDir": "./src",
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+    "coverage",
+    "build",
+    "__test__",
+    "bin",
+    "jest.config.js"
+  ]
+}
