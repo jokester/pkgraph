@@ -28,15 +28,18 @@
     "node": ">=16"
   },
   "dependencies": {
+    "@snyk/dep-graph": "^2.6.1",
     "date-fns": "^2.28.0",
     "debug": "^4.3.4",
     "fp-ts": "<3",
     "lodash-es": "^4.17.21",
     "rxjs": "^7.5.5",
+    "snyk-nodejs-lockfile-parser": "^1.51.1",
+    "snyk-resolve-deps": "^4.7.3",
+    "snyk-tree": "^1.0.0",
     "tslib": "^2",
     "winston": "^3.9.0"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/node": "^18",
