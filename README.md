@@ -1,8 +1,8 @@
-# lockdiff
+# pkgraph
 
 ------
 
-A diff tool for (generalized) dependency lock files: `package-lock.json` `yarn.lock`
+Visualize and diff dependency-lock files as graphs
 
 ## Get started
 
@@ -13,6 +13,8 @@ A diff tool for (generalized) dependency lock files: `package-lock.json` `yarn.l
 - https://github.com/snyk/nodejs-lockfile-parser
 - https://github.com/snyk/dep-graph
 - https://github.com/madiweaver/lock-diff#readme
+- https://github.com/pahen/madge
+    - https://github.com/dependents/node-dependency-tree
 
 ## Related work
 
