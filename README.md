@@ -12,6 +12,7 @@ A diff tool for (generalized) dependency lock files: `package-lock.json` `yarn.l
 - https://github.com/adiktofsugar/diff-package-lock
 - https://github.com/snyk/nodejs-lockfile-parser
 - https://github.com/snyk/dep-graph
+- https://github.com/madiweaver/lock-diff#readme
 
 ## License
 
