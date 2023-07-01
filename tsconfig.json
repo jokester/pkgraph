@@ -1,9 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "lib": ["es2020"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "es6",
+    "target": "es2020",
     "outDir": "./build",
     "rootDir": "./src",
   },
@@ -14,6 +15,6 @@
     "build",
     "__test__",
     "bin",
-    "jest.config.js"
+    "jest.config"
   ]
 }
