@@ -1,4 +1,4 @@
-# difflock
+# lockdiff
 
 ------
 
@@ -19,6 +19,8 @@ A diff tool for (generalized) dependency lock files: `package-lock.json` `yarn.l
 - https://www.npmjs.com/package/@rushstack/lockfile-explorer
 - https://github.com/microsoft/rushstack/tree/main/libraries/rush-lib/src/logic/npm which also contains npm/yarn/pnpm package-lock parser
 
+## How it works
+
 ## License
 
-WTFPL
+MIT
