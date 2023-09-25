@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "rm -rf build && tsup && tsc",
-    "dev": "rm -rf public/dist/* && tsup --watch",
+    "dev": "conc 'tsup --watch' 'asdf --dir public'",
     "local:install": "yarn build && yarn global add $PWD",
     "test": "DEBUG='lockdiff:*' jest",
     "test:watch": "jest --watch",
@@ -54,6 +54,8 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
+    "asdf": "^1.2.2",
+    "concurrently": "^8.2.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",

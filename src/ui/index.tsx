@@ -1,8 +1,11 @@
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { App } from './App';
 
 const appRoot = document.querySelector('#app') as HTMLDivElement;
 
 if (appRoot) {
-  ReactDOM.render(<App />, appRoot);
+  const root = createRoot(appRoot);
+  root.render(<App />);
+} else {
+  console.error('#app not found');
 }

@@ -7,5 +7,9 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   minify: process.env.NODE_ENV === 'production',
+  inject: ['src/ui/react-import.ts'], // to not import React in each file
+  env: {
+    NODE_ENV: 'development',
+  },
   outDir: path.join(__dirname, 'public/dist'),
 });
