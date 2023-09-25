@@ -26,5 +26,5 @@ export async function loadLockfile(content: string): Promise<snykLockFileParser.
   } catch (ignored) {
     logger('Failed to parse as npm lockfile', ignored);
   }
-  throw new Error(`unsupported lock file`);
+  throw new Error('unsupported lock file');
 }

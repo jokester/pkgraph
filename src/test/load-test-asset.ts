@@ -6,6 +6,9 @@ export const testAssets = {
     yarn: 'web-nextjs/202206-yarn.lock',
     npm2: 'web-nextjs/202306-package-lock.json',
   },
+  voxscape: {
+    yarn3: 'voxscape/yarn.lock',
+  },
 } as const;
 
 export async function loadTestAsset(filename: string): Promise<string> {

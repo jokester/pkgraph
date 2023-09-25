@@ -8,6 +8,11 @@ describe('lockfileLoader', () => {
     const lockfile = await loadLockfile(f1);
   });
 
+  it('should load yarn berry lockfile', async () => {
+    const f1 = await loadTestAsset(testAssets.voxscape.yarn3);
+
+    const lockfile = await loadLockfile(f1);
+  });
   it('should load npm lockfile', async () => {
     const f1 = await loadTestAsset(testAssets.webNextjs.npm2);
 
