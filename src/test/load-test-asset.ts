@@ -11,6 +11,10 @@ export const testAssets = {
   },
 } as const;
 
+export function getTestAssetRoot(id: string): string {
+  return path.join(__dirname, 'assets', id);
+}
+
 export async function loadTestAsset(filename: string): Promise<string> {
   return fsp.readFile(path.join(__dirname, 'assets', filename), 'utf8');
 }
