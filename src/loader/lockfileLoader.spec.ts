@@ -9,7 +9,7 @@ describe('lockfileLoader', () => {
   });
 
   it('should load yarn berry lockfile', async () => {
-    const f1 = await loadTestAsset(testAssets.voxscape.yarn3);
+    const f1 = await loadTestAsset(testAssets.voxscape.v202309);
 
     const lockfile = await loadLockfile(f1);
   });

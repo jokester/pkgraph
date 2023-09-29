@@ -7,7 +7,7 @@ export const testAssets = {
     npm2: 'web-nextjs/202306-package-lock.json',
   },
   voxscape: {
-    yarn3: 'voxscape/yarn.lock',
+    v202309: 'voxscape-202309/yarn.lock',
   },
 } as const;
 
