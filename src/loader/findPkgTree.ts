@@ -64,6 +64,6 @@ export async function findPkgTree(start: string): Promise<ResolvedManifest> {
       });
       return { pkgTree, depGraph };
     }
-    throw new Error(`unable to build PkgTree `);
   }
+  throw new Error(`unable to build PkgTree `);
 }
