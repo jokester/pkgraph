@@ -9,7 +9,7 @@ import {
 } from 'snyk-nodejs-lockfile-parser';
 import { DepGraph } from '@snyk/dep-graph';
 
-interface ResolvedManifest {
+export interface ResolvedManifest {
   pkgTree: PkgTree;
   depGraph: DepGraph;
 }
