@@ -11,7 +11,7 @@ import { DepGraph } from '@snyk/dep-graph';
 
 export interface ResolvedManifest {
   pkgTree: PkgTree;
-  depGraph: DepGraph;
+  depGraph?: DepGraph;
 }
 
 async function isFile(filename: string): Promise<boolean> {

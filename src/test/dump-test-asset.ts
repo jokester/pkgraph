@@ -16,5 +16,5 @@ setTimeout(() =>
       console.error(error);
       return error;
     })
-    .then((hadError) => (process.exitCode = ~~hadError)),
+    .then((hadError) => process.exit(~~hadError)),
 );
